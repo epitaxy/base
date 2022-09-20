@@ -1,5 +1,6 @@
 import platform # OS check
 
+# OS detection
 def OS_check() -> str:
     release = platform.release()
     version = platform.version()
